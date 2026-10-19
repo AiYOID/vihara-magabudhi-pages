@@ -202,7 +202,11 @@
       section.countEl.textContent = n;
     }
     for (const chip of els.chips.children) {
-      chip.setAttribute("aria-pressed", String(chip.dataset.region === state.region));
+      const active = chip.dataset.region === state.region;
+      chip.setAttribute("aria-pressed", String(active));
+      if (active) {
+        els.chips.scrollLeft = chip.offsetLeft - (els.chips.clientWidth - chip.offsetWidth) / 2;
+      }
     }
     els.empty.hidden = shown > 0;
     els.count.textContent = shown === state.total
