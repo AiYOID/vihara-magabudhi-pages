@@ -10,7 +10,7 @@ Static GitHub Pages site listing the vihara & cetiya under Magabudhi Banten, wit
 
 ## Updating the data
 
-The list comes from `Alamat Vihara Cetiya se Banten.docx`. After editing the document, regenerate `data/vihara.json`:
+The list comes from `Alamat Vihara Cetiya se Banten.docx`, which is kept out of the repository (`*.docx` is gitignored). Put the document in the project root, edit it, then regenerate `data/vihara.json`:
 
 ```sh
 pip install python-docx
