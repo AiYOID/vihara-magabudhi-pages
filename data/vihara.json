@@ -1,0 +1,669 @@
+{
+  "title": "Vihara Binaan Magabudhi Banten",
+  "source": "Alamat Vihara Cetiya se Banten.docx",
+  "regions": [
+    {
+      "id": "kota-tangerang",
+      "name": "Kota Tangerang",
+      "pc": "PC Kota Tangerang",
+      "items": [
+        {
+          "id": "vihara-dharma-ratna",
+          "no": 1,
+          "name": "Vihara Dharma Ratna",
+          "address": "Jl. Husein Sastranegara No. 77 Rt 002/RW 004, Kel. Jurumudi, Kec. Benda, Kota Tangerang, Banten 15124",
+          "contacts": [
+            {
+              "name": "",
+              "phone": "021-54370275"
+            },
+            {
+              "name": "Vini",
+              "phone": "081310124950"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/ds9MWZTf5y8uHWXA6"
+        },
+        {
+          "id": "vihara-dhamma-loka",
+          "no": 2,
+          "name": "Vihara Dhamma Loka",
+          "address": "Jl. Marsekal Surya Darma Baru No.9 Rt 004/Rw 003, Selapajang Jaya, Kec. Neglasari, Kota Tangerang, Banten 15127",
+          "contacts": [
+            {
+              "name": "Siu Lan",
+              "phone": "089508955106"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/ZgAryysNA3hKkXYAA"
+        },
+        {
+          "id": "vihara-araya-dhamma",
+          "no": 3,
+          "name": "Vihara Araya Dhamma",
+          "address": "Jl. Raya Kedaung Wetan Rt 004/Rw 001, Kec. Neglasari, Kota Tangerang, Banten 15128",
+          "contacts": [
+            {
+              "name": "Upc. Tonih",
+              "phone": "08111688946"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/quvY3DXBNXobgaH38"
+        },
+        {
+          "id": "vihara-sad-saddha",
+          "no": 4,
+          "name": "Vihara Sad Saddha",
+          "address": "Jl. Kp. Kahuripan/Rawa Kucing No.18 Rt 001/Rw 006, Kel. Mekarsari, Kec. Neglasari, Kota Tangerang, Banten 15129",
+          "contacts": [
+            {
+              "name": "PMd. Lukmin",
+              "phone": "081284338277"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/4DNUqW7WkDA5r8Qq8"
+        },
+        {
+          "id": "cetiya-dhamma-desana",
+          "no": 5,
+          "name": "Cetiya Dhamma Desana",
+          "address": "Jl. Marsekal Surya Darma Rt 001/Rw 010, Neglasari, Kec. Neglasari, Kota Tangerang, Banten 15129",
+          "contacts": [
+            {
+              "name": "Abun",
+              "phone": "0818142331"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/57J3Vpi51PK5H4RJ8"
+        },
+        {
+          "id": "vihara-dhamma-ratana",
+          "no": 6,
+          "name": "Vihara Dhamma Ratana",
+          "address": "Sewan Lebak Wangi No. 3 Rt 005/Rw 004, Kel. Mekarsari, Kec. Neglasari, Kota Tangerang, Banten 15129",
+          "contacts": [
+            {
+              "name": "",
+              "phone": "021-55798242"
+            },
+            {
+              "name": "Upc. Candra Gunawan",
+              "phone": "08989298429"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/3tkZiFTLc79r5fsA9"
+        },
+        {
+          "id": "vihara-ti-ratana",
+          "no": 7,
+          "name": "Vihara Ti Ratana",
+          "address": "Jl. AMD 44 No.13 Rt 001/Rw 014 Karang Sari, Kec. Neglasari, Kota Tangerang, Banten 15121",
+          "contacts": [
+            {
+              "name": "Wan Kie",
+              "phone": "0895809048050"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/kW8SUjASER3Q48288"
+        },
+        {
+          "id": "vihara-punna-sampada",
+          "no": 8,
+          "name": "Vihara Punna Sampada",
+          "address": "Jl. Nusa Indah I Blok A7 No.10 Rt 006/Rw 010, Perumahan Taman Cibodas, Kel. Sangiang Jaya, Kec. Periuk, Kota Tangerang, Banten 15132",
+          "contacts": [
+            {
+              "name": "PMy. Dji San",
+              "phone": "08119148007"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/YtzmNYPCfkeX55L19"
+        },
+        {
+          "id": "cetiya-sattha-dhamma",
+          "no": 9,
+          "name": "Cetiya Sattha Dhamma",
+          "address": "Jl. Cimona Delta II No.98, Rt 001/Rw 002, Cibodas, Kec. Cibodas, Kota Tangerang, Banten 15138",
+          "contacts": [
+            {
+              "name": "Upc. Erman C",
+              "phone": "08568158297"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/LfMfx8MNNviiQxKu5"
+        },
+        {
+          "id": "vihara-dhammaphala",
+          "no": 10,
+          "name": "Vihara Dhammaphala",
+          "address": "Jl. Sasmita, Gerendeng Pulo No.34 Rt 003/09, Kel. Gerendeng, Kec. Karawaci, Kota Tangerang, Banten 15113",
+          "contacts": [
+            {
+              "name": "",
+              "phone": "021-55795570"
+            },
+            {
+              "name": "Leo Gunawan",
+              "phone": "08129977218"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/n5WLdJGjZxzjzBqH6"
+        },
+        {
+          "id": "vihara-karuna-buddha",
+          "no": 11,
+          "name": "Vihara Karuna Buddha",
+          "address": "Jl. Imam Bonjol Gg. Bansin No.2, Kel. Sukajadi, Kec. Karawaci, Kota Tangerang, Banten 15113",
+          "contacts": [
+            {
+              "name": "PMd. Liani Suharlim",
+              "phone": "089618816267"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/hGbxC6SwLMzw2Kiz9"
+        },
+        {
+          "id": "vihara-ardhi-dharma",
+          "no": 12,
+          "name": "Vihara Ardhi Dharma",
+          "address": "Jl. Imam Bonjol Gg. Vihara IV No 1 Rt 002/Rw 009, Kel. Sukajadi, Kec. Karawaci, Kota Tangerang, Banten 15113",
+          "contacts": [
+            {
+              "name": "Metta",
+              "phone": "081806767855"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/LRVDE1uE2uFjoFmT7"
+        },
+        {
+          "id": "vihara-sasana-subhasita",
+          "no": 13,
+          "name": "Vihara Sasana Subhasita",
+          "address": "Jl. Tegal Sari IV No.32, Rt 004/Rw 011, Kel. Sukasari, Kec. Tangerang, Kota Tangerang, Banten 15118",
+          "contacts": [
+            {
+              "name": "Tjoan Siong",
+              "phone": "08121019481"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/XKNQ6fd1BSoGER5s9"
+        },
+        {
+          "id": "vihara-indraloka",
+          "no": 14,
+          "name": "Vihara Indraloka",
+          "address": "Jl. Benteng Jaya No.29, Rt 004/Rw 008, Kel. Sukarasa, Kec. Tangerang, Kota tangerang 15111",
+          "contacts": [
+            {
+              "name": "Miko Marsela",
+              "phone": "081808007835"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/QJQ7kmHj2mMRrvBj6"
+        },
+        {
+          "id": "cetiya-dhamma-mitta",
+          "no": 15,
+          "name": "Cetiya Dhamma Mitta",
+          "address": "Perumahan Alam Indah Kec. Cipondoh, Kota Tangerang",
+          "contacts": [
+            {
+              "name": "Upc. Aliong",
+              "phone": "08176499575"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/JRWgimjwNsmLh3rf8"
+        },
+        {
+          "id": "spub-magabudhi-banten",
+          "no": 16,
+          "name": "SPUB Magabudhi Banten",
+          "address": "Daan Mogot Arcadia Blok H7/37 Batu Ceper Kota Tangerang",
+          "contacts": [],
+          "maps": "https://maps.app.goo.gl/qZHdRXLQRfb8vykZ8"
+        },
+        {
+          "id": "cetiya-dhamma-senapati",
+          "no": 17,
+          "name": "Cetiya Dhamma Senapati",
+          "address": "Sukajadi Blok F No. 78 Rt 005/Rw 03, Kota Tangerang",
+          "contacts": [],
+          "maps": "https://maps.app.goo.gl/ABBx83f4xFoG12Pf6"
+        },
+        {
+          "id": "cetiya-dasa-paramita",
+          "no": 18,
+          "name": "Cetiya Dasa Paramita",
+          "address": "Selapajang Kota Tangerang",
+          "contacts": [],
+          "maps": "https://maps.app.goo.gl/UotDMNPfHsJxqmF6A"
+        },
+        {
+          "id": "vihara-buddhi-vardhana",
+          "no": 19,
+          "name": "Vihara Buddhi Vardhana",
+          "address": "Jl. Imam Bonjol Ilir No.41 Kota Tangerang",
+          "contacts": [],
+          "maps": "https://maps.app.goo.gl/r2rWRnJmNmjgivRLA"
+        },
+        {
+          "id": "cetiya-surya-dharma",
+          "no": 20,
+          "name": "Cetiya Surya Dharma",
+          "address": "Jl. Padasuka I No.2, Pabuaran Tangerang",
+          "contacts": [],
+          "maps": "https://maps.app.goo.gl/bNMrVemx3g6479JcA"
+        }
+      ]
+    },
+    {
+      "id": "kota-tangerang-selatan",
+      "name": "Kota Tangerang Selatan",
+      "pc": "PC Kota Tangerang Selatan",
+      "items": [
+        {
+          "id": "vihara-siripada",
+          "no": 1,
+          "name": "Vihara Siripada",
+          "address": "Jl. Komplek Villa Melati Mas Blok B10 No.54 Sepong, Jelupang, Kec. Serpong Utara, Kota Tangerang Selatan, Banten 15323",
+          "contacts": [
+            {
+              "name": "PMy. Suhendra",
+              "phone": "08129019113"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/MFwPR7Q8FmRnpaPd6"
+        },
+        {
+          "id": "cetiya-anurudha",
+          "no": 2,
+          "name": "Cetiya Anurudha",
+          "address": "Jl. Mutiara 1 No.1 Rt 005/Rw 005 Kampung Dongkal, Pondok Jagung Timur, Kec. Serpong Utara, Kota Tangerang Selatan, Banten 15326",
+          "contacts": [
+            {
+              "name": "PMd. Jimmy S",
+              "phone": "081315271897"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/YUiEHaLezabSKgdZ6"
+        },
+        {
+          "id": "pusdiklat-buddhis-sikkhadama-santibhumi",
+          "no": 3,
+          "name": "Pusdiklat Buddhis Sikkhadama Santibhumi",
+          "address": "Bumi Serpong Damai, BSD City Sektor VII, Blok C No.6, Lengkong Gudang, Kec. Serpong, Kota Tangerang Selatan, Banten 15321",
+          "contacts": [
+            {
+              "name": "",
+              "phone": "02153167062"
+            },
+            {
+              "name": "B. Atthadhiro Thera",
+              "phone": "081236137327"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/DJMa5JhwnU4bSfCb7"
+        },
+        {
+          "id": "vihara-karuna-jala",
+          "no": 4,
+          "name": "Vihara Karuna Jala",
+          "address": "Jl.M. Arohim No.45, Cilenggang, Kec. Serpong, Kota Tangerang Selatan, Banten 15310",
+          "contacts": [
+            {
+              "name": "PMy. Gelawati",
+              "phone": "082111855665"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/ndL3tzr7UU92fjuT6"
+        },
+        {
+          "id": "vihara-dhamma-sabha",
+          "no": 5,
+          "name": "Vihara Dhamma Sabha",
+          "address": "Jl. Jombang Raya Gg. Damai No.55 Rt 003/004 Kel. Pd. Jaya, Kec. Pd. Aren, Kota Tangerang Selatan, Banten 15220",
+          "contacts": [
+            {
+              "name": "PMd. Suhari S",
+              "phone": "08121979401"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/zja6yLdE2YG2bPSY6"
+        }
+      ]
+    },
+    {
+      "id": "kabupaten-tangerang",
+      "name": "Kabupaten Tangerang",
+      "pc": "PC Kabupaten Tangerang",
+      "items": [
+        {
+          "id": "vihara-ariya-dipasena",
+          "no": 1,
+          "name": "Vihara Ariya Dipasena",
+          "address": "Kp. Gunung Batu Rt 12/03 Ds. Ranca Iyuh Kec Panongan Kab Tangerang, Banten",
+          "contacts": [
+            {
+              "name": "Sun Bih",
+              "phone": "085710262213"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/1DNN9VKyhGMQE2mD8"
+        },
+        {
+          "id": "vihara-caga-sasana",
+          "no": 2,
+          "name": "Vihara Caga Sasana",
+          "address": "Kp. Cukanggalih Rt 02/02 Kec. Panongan",
+          "contacts": [
+            {
+              "name": "Upc. Yendi",
+              "phone": "081287845917"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/VzsNk3uCdCX7NUa58"
+        },
+        {
+          "id": "vihara-dhamma-bhakti",
+          "no": 3,
+          "name": "Vihara Dhamma Bhakti",
+          "address": "Kp. Jawaringan Ds. Mekar Bakti Kec. Panongan",
+          "contacts": [
+            {
+              "name": "Upc. Ten Hoy",
+              "phone": "082111721836"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/NdQZGBnjzmT53vFp8"
+        },
+        {
+          "id": "cetiya-brahma-vihara",
+          "no": 4,
+          "name": "Cetiya Brahma Vihara",
+          "address": "Kp. Sodong, Ds. Sodong Rt 05/01 Kec Tigarksa Kab Tangerang - Banten",
+          "contacts": [
+            {
+              "name": "Ronald",
+              "phone": "0895615715908"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/QunUzc93CamESwMg9"
+        },
+        {
+          "id": "cetiya-dhamma-manggala",
+          "no": 5,
+          "name": "Cetiya Dhamma Manggala",
+          "address": "Jl. Raya Cisoka Tigaraksa Kp. Cisoka No. 76 Rt 003/01 Kec. Cisoka",
+          "contacts": [
+            {
+              "name": "Acef",
+              "phone": "082210117076"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/rz4CuRcmssJzWiTdA"
+        },
+        {
+          "id": "cetiya-dharma-dvipa",
+          "no": 6,
+          "name": "Cetiya Dharma Dvipa",
+          "address": "Kp. Cirarab Rt 02/03 Desa Cirarab Kec. Legok, Kab. Tangerang Banten 15730",
+          "contacts": [
+            {
+              "name": "Liling",
+              "phone": "081318903576"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/XnX7QaZRtdqY9q1G9"
+        },
+        {
+          "id": "cetiya-caga-dhamma",
+          "no": 7,
+          "name": "Cetiya Caga Dhamma",
+          "address": "Kp. Bungoak Rt 004/001, Desa Caringin Kec. Legok, Kab. Tangerang, Banten 15820",
+          "contacts": [
+            {
+              "name": "Upc. Mista Wijaya",
+              "phone": "087809474214"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/Bxma4XRVubsxMZ2B6"
+        },
+        {
+          "id": "vihara-dhamma-metta",
+          "no": 8,
+          "name": "Vihara Dhamma Metta",
+          "address": "Kp. Cibeleng Rt 002/005 Desa Cijantra Kec. Pagedangan, Kab. Tangerang Banten 15336",
+          "contacts": [
+            {
+              "name": "Pdt. Iwan Sugandhi",
+              "phone": "0895331748072"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/fJbv2GZ5ToRAcNaV6"
+        },
+        {
+          "id": "vihara-punna-karya",
+          "no": 9,
+          "name": "Vihara Punna Karya",
+          "address": "Kp. Candu Rt 002/007 Kel. Curug Kulon Kec. Curug, Kab. Tangerang, Banten 15810",
+          "contacts": [
+            {
+              "name": "Upc. Yodih Wijaya",
+              "phone": "085946427778"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/jZkRHPEfsUdQJY2z9"
+        },
+        {
+          "id": "cetiya-veluvana-arama",
+          "no": 10,
+          "name": "Cetiya Veluvana Arama",
+          "address": "Kp. Gerubuk Rt 002/05 No.122 Kel. Bojong Nangka Kec. Kelapa Dua, Kab. Tangerang, Banten 15820",
+          "contacts": [
+            {
+              "name": "PMd. Yatna S",
+              "phone": "081212833221"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/vKjFnhTR4FbGmicv6"
+        },
+        {
+          "id": "cetiya-buddha-ramsi",
+          "no": 11,
+          "name": "Cetiya Buddha Ramsi",
+          "address": "Villa Tangerang Regency 2 Blok AD No. 42 Rt 002/006, Desa Gelam Jaya, Kec. Pasar Kemis, Kab. Tangerang Banten 15562",
+          "contacts": [
+            {
+              "name": "PMd. Rudi Wijaya",
+              "phone": "083872150204"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/886JYLQ9W1aDRJgP9"
+        },
+        {
+          "id": "cetiya-vijja-gana",
+          "no": 12,
+          "name": "Cetiya Vijja Gana",
+          "address": "Villa Tomang Baru Blok L1 No.5 Rt 005/014 Kel. Kutajaya, Kec. Pasar Kemis, Kab. Tangerang Banten 15560",
+          "contacts": [
+            {
+              "name": "Nena",
+              "phone": "081316880095"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/E24gscJHK68Hk59n8"
+        },
+        {
+          "id": "cetiya-kusala-cetana",
+          "no": 13,
+          "name": "Cetiya Kusala Cetana",
+          "address": "Kp. Pondok Bahagia Rt 01/04 Ds. Tegalangus, Kec. Teluknaga, Kab. Tangerang Banten 15510",
+          "contacts": [
+            {
+              "name": "PMd. Dendi",
+              "phone": "089674227370"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/2RrhnMNZ4QAk72EW9"
+        },
+        {
+          "id": "vihara-atta-naga-vimutti",
+          "no": 14,
+          "name": "Vihara Atta Naga Vimutti",
+          "address": "Kp. Kandang Genteng Rt 006/003, Desa Tanjung Burung, Kec. Teluknaga, Kab. Tangerang, Banten 15510",
+          "contacts": [
+            {
+              "name": "PMd. Ong Kai",
+              "phone": "087876278473"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/v76a5WsRvtYpJ5Jh9"
+        },
+        {
+          "id": "vihara-tri-maha-dharma",
+          "no": 15,
+          "name": "Vihara Tri Maha Dharma",
+          "address": "Jl. Raya Kp. Melayu No.512 Kp. Melayu Timur, Kalimati, Kec. Teluk Naga Kab. Tangerang 15510",
+          "contacts": [
+            {
+              "name": "Frista",
+              "phone": "089643650993"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/ouYEV7Nrpiz6uLqx7"
+        },
+        {
+          "id": "vihara-tri-dharma-guna",
+          "no": 16,
+          "name": "Vihara Tri Dharma Guna",
+          "address": "Jl. Raya Tanjung Pasir Kb. Luar, Kebon Teki, Rt 007/014, ds. Kp. Besar, Kec. Teluk Naga, Kab. Tangerang, Banten 15510",
+          "contacts": [
+            {
+              "name": "PMd. Ong Kai",
+              "phone": "087876278473"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/2aefJqxgr49GehBv8"
+        },
+        {
+          "id": "cetiya-tri-dharma-saddha",
+          "no": 17,
+          "name": "Cetiya Tri Dharma Saddha",
+          "address": "Gg. Lemo, Desa Lemo Kec. Teluk Naga, Kab. Tangerang, Banten 15510",
+          "contacts": [
+            {
+              "name": "PMd. Ong Kai",
+              "phone": "087876278473"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/zpcUyJXwcDNXR1VL6"
+        },
+        {
+          "id": "cetiya-tri-dharma-cariya",
+          "no": 18,
+          "name": "Cetiya Tri Dharma Cariya",
+          "address": "Jl. Keramat Ema Dato Kp. Kebon Baru Ds. Margamulya Rt 001/04 Kec. Mauk Kab. Tangerang, Banten 15530",
+          "contacts": [
+            {
+              "name": "PMd. Rusli",
+              "phone": "081291388912"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/MgW513db7Nhnw9rJ7"
+        },
+        {
+          "id": "vihara-tri-maha-ratna",
+          "no": 19,
+          "name": "Vihara Tri Maha Ratna",
+          "address": "Kp. Belimbing Rt 01/01 Kec. Kosambi Kab. Tangerang, Banten 15212",
+          "contacts": [
+            {
+              "name": "Aok Suryana",
+              "phone": "089634465089"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/6Uucwa4Y1PToDaTXA"
+        },
+        {
+          "id": "vihara-isipatana",
+          "no": 20,
+          "name": "Vihara Isipatana",
+          "address": "Kampung Kajangan Rt 01/05 Desa Gaga, Kec. Pakuhaji, Kab. Tangerang, Banten 15570",
+          "contacts": [
+            {
+              "name": "PMd. Cicih Komala Dewi",
+              "phone": "08129938986"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/KAYNEp7mubKfL6RS7"
+        },
+        {
+          "id": "vihara-tjo-soe-kong",
+          "no": 21,
+          "name": "Vihara Tjo Soe Kong",
+          "address": "Tanjung Anom, Kec. Mauk, Kab. Tangerang, Banten 15330",
+          "contacts": [
+            {
+              "name": "PMd. Rusli",
+              "phone": "081291388912"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/zUkQRfCRmrE2McBs8"
+        }
+      ]
+    },
+    {
+      "id": "kota-serang",
+      "name": "Kota Serang",
+      "pc": "PC Kota Serang",
+      "items": [
+        {
+          "id": "vihara-mandalawangi-arama",
+          "no": 1,
+          "name": "Vihara Mandalawangi Arama",
+          "address": "Blok Cendana No. 60 Jl. Kelapa Dua, Drangong, Kec. Taktakan, Kota Serang, Banten 42162",
+          "contacts": [
+            {
+              "name": "Upc. Budi Suwito",
+              "phone": "0811122821"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/ViCuTPpbHuMgVoLD6"
+        }
+      ]
+    },
+    {
+      "id": "kabupaten-pandeglang",
+      "name": "Kabupaten Pandeglang",
+      "pc": "PC Kabupaten Pandeglang",
+      "items": [
+        {
+          "id": "vihara-buddha-ratana",
+          "no": 1,
+          "name": "Vihara Buddha Ratana",
+          "address": "Labuan, Kec. Labuan, Kab. Pandeglang, Banten 42264",
+          "contacts": [
+            {
+              "name": "PMy. Sumedho",
+              "phone": "087788191630"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/SDfVf1PLJbNXVJMf8"
+        },
+        {
+          "id": "pusdiklat-dharmalokapala-wijaya",
+          "no": 2,
+          "name": "Pusdiklat Dharmalokapala Wijaya",
+          "address": "Panimbang, Kabupaten Pandeglang, Banten",
+          "contacts": [
+            {
+              "name": "PMy. Sumedho",
+              "phone": "087788191630"
+            }
+          ],
+          "maps": "https://maps.app.goo.gl/QzEWqKiTBkdTCrgh7"
+        }
+      ]
+    }
+  ]
+}
