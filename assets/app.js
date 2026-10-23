@@ -1,6 +1,7 @@
 (function () {
   "use strict";
 
+  const { ICONS, h, normalize, digits, formatDate, shareButton, renderContact, mapsButton, focusHash, centerChip, loadJSON } = window.Vihara;
   const $ = (sel) => document.querySelector(sel);
 
   const els = {
@@ -11,131 +12,34 @@
     empty: $("#empty"),
     stats: $("#stats"),
     source: $("#source"),
-    toast: $("#toast"),
   };
 
-  const ICONS = {
-    map: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>',
-    phone: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>',
-    chat: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11.5a8 8 0 0 1-11.8 7L4 20l1.5-4.2A8 8 0 1 1 20 11.5z"/></svg>',
-    share: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.4M8.2 13.2l7.6 4.4"/></svg>',
-  };
+  const state = { region: "all", query: "", cards: [], sections: [], events: {} };
 
-  const state = { region: "all", query: "", cards: [], sections: [] };
-
-  function h(tag, attrs, children) {
-    const node = document.createElement(tag);
-    for (const [key, value] of Object.entries(attrs || {})) {
-      if (key === "html") node.innerHTML = value;
-      else if (key === "text") node.textContent = value;
-      else node.setAttribute(key, value);
-    }
-    for (const child of [].concat(children || [])) {
-      if (child) node.append(child);
-    }
-    return node;
-  }
-
-  function normalize(text) {
-    return text.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
-  }
-
-  function digits(phone) {
-    return phone.replace(/\D/g, "");
-  }
-
-  function isMobile(phone) {
-    const d = digits(phone);
-    return d.startsWith("08") || d.startsWith("628");
-  }
-
-  function waLink(phone) {
-    const d = digits(phone);
-    return "https://wa.me/" + (d.startsWith("0") ? "62" + d.slice(1) : d);
-  }
-
-  function itemUrl(id) {
-    return location.origin + location.pathname + "#" + id;
-  }
-
-  let toastTimer;
-  function toast(message) {
-    els.toast.textContent = message;
-    els.toast.classList.add("show");
-    clearTimeout(toastTimer);
-    toastTimer = setTimeout(() => els.toast.classList.remove("show"), 2200);
-  }
-
-  async function share(item) {
-    const url = itemUrl(item.id);
-    if (navigator.share) {
-      try {
-        await navigator.share({ title: item.name, text: item.name + " — " + item.address, url });
-        return;
-      } catch (err) {
-        if (err.name === "AbortError") return;
-      }
-    }
-    try {
-      await navigator.clipboard.writeText(url);
-      toast("Tautan disalin");
-    } catch (err) {
-      prompt("Salin tautan ini:", url);
-    }
-  }
-
-  function renderContact(contact) {
-    const label = contact.name || "Telp.";
-    const actions = [
-      h("a", { class: "icon-btn", href: "tel:" + digits(contact.phone), "aria-label": "Telepon " + label, html: ICONS.phone }),
-    ];
-    if (isMobile(contact.phone)) {
-      actions.push(h("a", {
-        class: "icon-btn wa",
-        href: waLink(contact.phone),
-        target: "_blank",
-        rel: "noopener",
-        "aria-label": "WhatsApp " + label,
-        html: ICONS.chat,
-      }));
-    }
-    return h("li", { class: "contact" }, [
-      h("div", { class: "contact-text" }, [
-        h("b", { text: label }),
-        document.createTextNode(" "),
-        h("span", { text: contact.phone }),
-      ]),
-      ...actions,
-    ]);
+  function renderEventLink(event) {
+    const link = h("a", { class: "event-link", href: "jadwal.html#" + event.id, html: ICONS.calendar });
+    link.append(h("span", {}, [
+      h("b", { text: "Sanghadana" }),
+      document.createTextNode(" " + formatDate(event.date, "short") + " · " + event.time + " WIB"),
+    ]));
+    return link;
   }
 
   function renderCard(item, region) {
-    const shareBtn = h("button", {
-      class: "icon-btn",
-      type: "button",
-      "aria-label": "Bagikan tautan " + item.name,
-      title: "Bagikan tautan",
-      html: ICONS.share,
-    });
-    shareBtn.addEventListener("click", () => share(item));
-
     const contacts = item.contacts.length
       ? h("ul", { class: "contacts" }, item.contacts.map(renderContact))
       : h("p", { class: "contacts no-contact", text: "Kontak belum tersedia" });
-
-    const maps = item.maps
-      ? h("a", { class: "maps-btn", href: item.maps, target: "_blank", rel: "noopener", html: ICONS.map + "<span>Buka di Google Maps</span>" })
-      : null;
 
     const card = h("article", { class: "card", id: item.id }, [
       h("div", { class: "card-head" }, [
         h("span", { class: "num", text: String(item.no) }),
         h("h3", { class: "name", text: item.name }),
-        shareBtn,
+        shareButton(item.name, item.name, item.name + " — " + item.address, item.id),
       ]),
       h("p", { class: "address", text: item.address }),
+      ...(state.events[item.id] || []).map(renderEventLink),
       contacts,
-      maps,
+      item.maps ? mapsButton(item.maps) : null,
     ]);
 
     const haystack = [item.name, item.address, region.name]
@@ -204,9 +108,7 @@
     for (const chip of els.chips.children) {
       const active = chip.dataset.region === state.region;
       chip.setAttribute("aria-pressed", String(active));
-      if (active) {
-        els.chips.scrollLeft = chip.offsetLeft - (els.chips.clientWidth - chip.offsetWidth) / 2;
-      }
+      if (active) centerChip(els.chips, chip);
     }
     els.empty.hidden = shown > 0;
     els.count.textContent = shown === state.total
@@ -226,29 +128,28 @@
     }
   }
 
-  function focusHash(event) {
-    const id = decodeURIComponent(location.hash.slice(1));
-    const card = id && document.getElementById(id);
-    if (!card || !card.classList.contains("card")) return;
-    if (card.hidden) {
-      state.query = "";
-      els.search.value = "";
-      setRegion("all", false);
-    }
-    card.scrollIntoView({ behavior: event ? "smooth" : "auto", block: "center" });
-    card.classList.add("flash");
-    setTimeout(() => card.classList.remove("flash"), 2400);
+  function revealAll() {
+    state.query = "";
+    els.search.value = "";
+    setRegion("all", false);
   }
 
   async function init() {
-    try {
-      const res = await fetch("data/vihara.json", { cache: "no-cache" });
-      if (!res.ok) throw new Error(res.status);
-      render(await res.json());
-    } catch (err) {
+    // The schedule only adds a date link to cards, so the directory still renders without it.
+    const [directory, schedule] = await Promise.allSettled([
+      loadJSON("data/vihara.json"),
+      loadJSON("data/sanghadana-2026.json"),
+    ]);
+    if (directory.status === "rejected") {
       els.count.textContent = "Gagal memuat data. Jika membuka file secara lokal, jalankan server lokal (mis. python3 -m http.server).";
       return;
     }
+    if (schedule.status === "fulfilled") {
+      for (const event of schedule.value.events) {
+        if (event.vihara) (state.events[event.vihara] ||= []).push(event);
+      }
+    }
+    render(directory.value);
 
     const pc = new URLSearchParams(location.search).get("pc");
     if (pc && state.sections.some((s) => s.id === pc)) state.region = pc;
@@ -258,8 +159,8 @@
       state.query = els.search.value;
       applyFilter();
     });
-    window.addEventListener("hashchange", focusHash);
-    focusHash();
+    window.addEventListener("hashchange", (event) => focusHash(event, revealAll));
+    focusHash(null, revealAll);
   }
 
   init();

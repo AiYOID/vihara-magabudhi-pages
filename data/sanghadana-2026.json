@@ -1,0 +1,627 @@
+{
+  "title": "Jadwal Kathinadana - Sanghadana 2026",
+  "organizer": "Padesanayaka Provinsi Banten",
+  "approved": "Disahkan oleh Bhikkhu Abhiseno (29 Agustus 2026)",
+  "start": "2026-10-27",
+  "end": "2026-11-29",
+  "source": "INFORMASI SANGHADANA BANTEN 2026.pdf",
+  "events": [
+    {
+      "id": "cetiya-dhamma-desana",
+      "no": 1,
+      "date": "2026-10-27",
+      "time": "19.00",
+      "venue": "Cetiya Dhammadesana",
+      "address": "Jl. Marsekal Surya Darma Rt 001/Rw 07, Neglasari, Kec. Neglasari, Kota Tangerang",
+      "dhammadesana": "Ditentukan oleh Bhikkhu yang hadir",
+      "contact": {
+        "name": "Janawi",
+        "phone": "0818-142-331"
+      },
+      "vihara": "cetiya-dhamma-desana"
+    },
+    {
+      "id": "vihara-punna-sampada",
+      "no": 2,
+      "date": "2026-10-28",
+      "time": "19.00",
+      "venue": "Vihara Punna Sampada",
+      "address": "Acara diadakan di Gedung Vipassi, UBD Tangerang",
+      "dhammadesana": "Bhikkhu Atthadhiro Thera",
+      "contact": {
+        "name": "Intan",
+        "phone": "0877-0208-1979"
+      },
+      "vihara": "vihara-punna-sampada",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Gedung+Vipassi+Universitas+Buddhi+Dharma+Tangerang"
+    },
+    {
+      "id": "cetiya-veluvana-arama",
+      "no": 3,
+      "date": "2026-10-29",
+      "time": "19.00",
+      "venue": "Cetiya Veluvana Arama",
+      "address": "Kp. Gurubug No.122 Rt.002/005 Kel. Bojong Nangka, Kec. Kelapa Dua, Kab. Tangerang, Banten 15820",
+      "dhammadesana": "Bhikkhu Atthadhiro Thera",
+      "contact": {
+        "name": "Yatna",
+        "phone": "0812-1283-3221"
+      },
+      "vihara": "cetiya-veluvana-arama"
+    },
+    {
+      "id": "vihara-dhamma-ratana",
+      "no": 4,
+      "date": "2026-10-30",
+      "time": "19.00",
+      "venue": "Vihara Dhamma Ratana",
+      "address": "Sewan Lebak Wangi No. 3 Rt 005/Rw 004, Kel. Mekarsari, Kec. Neglasari, Kota Tangerang, Banten 15129",
+      "dhammadesana": "Bhikkhu Virasilo Thera",
+      "contact": {
+        "name": "Chandra Gunawan",
+        "phone": "0898-9298-429"
+      },
+      "vihara": "vihara-dhamma-ratana"
+    },
+    {
+      "id": "vihara-dhamma-loka",
+      "no": 5,
+      "date": "2026-10-31",
+      "time": "09.00",
+      "venue": "Vihara Dhamma Loka",
+      "address": "Jl. Raya Kp. Melayu Km 7, Gg. Loceng II Rt 02/07 Selapajang Jaya, Neglasari, Tangerang",
+      "dhammadesana": "Ditentukan oleh Bhikkhu yang hadir",
+      "contact": {
+        "name": "Siu Lan",
+        "phone": "0895-0895-5106"
+      },
+      "vihara": "vihara-dhamma-loka"
+    },
+    {
+      "id": "cetiya-sattha-dhamma",
+      "no": 6,
+      "date": "2026-10-31",
+      "time": "14.00",
+      "venue": "Cetiya Sattha Dhamma",
+      "address": "Jl. Delta Raya No 98 Sebelah Sekolah Citra Kasih Cimone - Tangerang",
+      "dhammadesana": "Bhikkhu Cittanando Mahathera",
+      "contact": {
+        "name": "Ibu Ami",
+        "phone": "0852-8221-8877"
+      },
+      "vihara": "cetiya-sattha-dhamma"
+    },
+    {
+      "id": "vihara-dharma-ratna",
+      "no": 7,
+      "date": "2026-10-31",
+      "time": "18.00",
+      "venue": "Vihara Dharma Ratna",
+      "address": "Jl. Husein Sastranegara No.77, RT.002/RW.004, Jurumudi, Kec. Benda, Kota Tangerang, Banten 15124",
+      "dhammadesana": "Bhikkhu Dhammasubho Mahathera",
+      "contact": {
+        "name": "Tinageren",
+        "phone": "0813-8664-1702"
+      },
+      "vihara": "vihara-dharma-ratna"
+    },
+    {
+      "id": "vihara-siripada",
+      "no": 8,
+      "date": "2026-11-01",
+      "time": "09.00",
+      "venue": "Vihara Siripada",
+      "address": "Kompleks Villa Melati Mas Blok B10 No. 54 Serpong Jelupang - Tangerang Selatan",
+      "dhammadesana": "Bhikkhu Abhijato",
+      "contact": {
+        "name": "Suhendra",
+        "phone": "0812-9019-113"
+      },
+      "vihara": "vihara-siripada"
+    },
+    {
+      "id": "vihara-sad-saddha",
+      "no": 9,
+      "date": "2026-11-01",
+      "time": "14.00",
+      "venue": "Vihara Sadsaddha",
+      "address": "Jl. Sewan Rawa Kucing No.18 Rt 001/006 Kel. Mekarsari Kec. Neglasari - Tangerang",
+      "dhammadesana": "Ditentukan oleh Bhikkhu yang hadir",
+      "contact": {
+        "name": "Lukmin",
+        "phone": "0812-8433-8277"
+      },
+      "vihara": "vihara-sad-saddha"
+    },
+    {
+      "id": "vihara-sasana-subhasita",
+      "no": 10,
+      "date": "2026-11-01",
+      "time": "18.00",
+      "venue": "Vihara Sasana Subhasita",
+      "address": "Jl. Tegal Sari IV No.32, Rt 004/Rw 011, Kel. Sukasari, Kec. Tangerang, Kota Tangerang, Banten 15118",
+      "dhammadesana": "Bhikkhu Cittanando Mahathera",
+      "contact": {
+        "name": "Cuan Siong",
+        "phone": "0812-1019-481"
+      },
+      "vihara": "vihara-sasana-subhasita"
+    },
+    {
+      "id": "vihara-punna-karya",
+      "no": 11,
+      "date": "2026-11-02",
+      "time": "19.00",
+      "venue": "Vihara Punna Karya",
+      "address": "Jl. Margasari No. 33 Curug Kulon Kab. Tangerang 15810",
+      "dhammadesana": "Ditentukan oleh Bhikkhu yang hadir",
+      "contact": {
+        "name": "Yodih Wijaya",
+        "phone": "0859-4642-7778"
+      },
+      "vihara": "vihara-punna-karya"
+    },
+    {
+      "id": "vihara-nimmala",
+      "no": 12,
+      "date": "2026-11-03",
+      "time": "19.00",
+      "venue": "Vihara Nimmala",
+      "address": "Jl. KS Tubun No. 43, Koang Pasar Baru, Kota Tangerang",
+      "dhammadesana": "Bhikkhu Hemadhammo Mahathera",
+      "contact": {
+        "name": "Ceceh",
+        "phone": "0878-7704-8907"
+      },
+      "vihara": null
+    },
+    {
+      "id": "vihara-karuna-jala",
+      "no": 13,
+      "date": "2026-11-04",
+      "time": "19.00",
+      "venue": "Vihara Karunajala",
+      "address": "Jl. M. Arohim No.45, Cilenggang, Kec. Serpong, Kota Tangerang Selatan, 15310",
+      "dhammadesana": "Ditentukan oleh Bhikkhu yang hadir",
+      "contact": {
+        "name": "Gelawati",
+        "phone": "0821-1185-5665"
+      },
+      "vihara": "vihara-karuna-jala"
+    },
+    {
+      "id": "vihara-dhamma-sabha",
+      "no": 14,
+      "date": "2026-11-05",
+      "time": "19.00",
+      "venue": "Vihara Dhamma Sabha",
+      "address": "Jl. Jombang Raya No 55 Gg. Damai Rt 003 Rw 004 Kel. Pondok Jaya, Kec. Pondok Aren, Kota Tangerang Selatan, Banten 15220",
+      "dhammadesana": "Bhikkhu Atthadhiro Thera",
+      "contact": {
+        "name": "Suhari Setiawan",
+        "phone": "0812-1979-401"
+      },
+      "vihara": "vihara-dhamma-sabha"
+    },
+    {
+      "id": "vihara-isipatana",
+      "no": 15,
+      "date": "2026-11-06",
+      "time": "19.00",
+      "venue": "Vihara Isipatana",
+      "address": "Jl. Gaga Kolot Kp. Kajangan RT 01 RW.05 Desa Gaga Kec Pakuhaji Kab. Tangerang",
+      "dhammadesana": null,
+      "contact": {
+        "name": "Rusdi",
+        "phone": "0815-9994-523"
+      },
+      "vihara": "vihara-isipatana"
+    },
+    {
+      "id": "cetiya-buddha-ramsi",
+      "no": 16,
+      "date": "2026-11-07",
+      "time": "09.00",
+      "venue": "Cetiya Buddha Ramsi",
+      "address": "Villa Tangerang Regency 2 Blok AD No.42 RT.002 RW.006, Desa Gelam Jaya, Kec. Pasar Kemis, Kab. Tangerang, Banten 15562",
+      "dhammadesana": "Bhikkhu Abhiseno",
+      "contact": {
+        "name": "Rudi Wijaya",
+        "phone": "0838-7215-0204"
+      },
+      "vihara": "cetiya-buddha-ramsi"
+    },
+    {
+      "id": "vihara-tri-bakti-abadi",
+      "no": 17,
+      "date": "2026-11-07",
+      "time": "14.00",
+      "venue": "Vihara Tri Bakti Abadi",
+      "address": "Jl. Sinar Hati 5 No. 45 RT.005 RW.003 Karawaci Kota Tangerang",
+      "dhammadesana": "Ditentukan oleh Bhikkhu yang hadir",
+      "contact": {
+        "name": "Liyanah",
+        "phone": "0878-8449-1216"
+      },
+      "vihara": null
+    },
+    {
+      "id": "vihara-dhammaphala",
+      "no": 18,
+      "date": "2026-11-07",
+      "time": "18.00",
+      "venue": "Vihara Dhammaphala",
+      "address": "Jl. Sasmita, Gerendeng Pulo No.34 Rt 003/09, Kel. Gerendeng, Kec. Karawaci, Kota Tangerang, Banten 15113",
+      "dhammadesana": "Bhikkhu Virasilo Thera",
+      "contact": {
+        "name": "Leo Gunawan",
+        "phone": "0811-1810-927"
+      },
+      "vihara": "vihara-dhammaphala"
+    },
+    {
+      "id": "vihara-caga-sasana",
+      "no": 19,
+      "date": "2026-11-08",
+      "time": "09.00",
+      "venue": "Vihara Cagasasana",
+      "address": "Jl. Kebon Kawat RT 02, RW 02, Kampung Cukanggalih, Ciakar, Panongan, Tangerang",
+      "dhammadesana": "Ditentukan oleh Bhikkhu yang hadir",
+      "contact": {
+        "name": "Yoki Saputra",
+        "phone": "0878-8544-5724"
+      },
+      "vihara": "vihara-caga-sasana"
+    },
+    {
+      "id": "cetiya-sila-dhamma-vijaya-manggala",
+      "no": 20,
+      "date": "2026-11-08",
+      "time": "14.00",
+      "venue": "Cetiya Sila Dhamma Vijaya Manggala",
+      "address": "Gedung Indoor Gym Sekolah Harapan Bangsa, Jl. Pulau Putri Raya No. Kav. 10 Mode…",
+      "dhammadesana": "Bhikkhu Abhiseno",
+      "contact": {
+        "name": "Hesty",
+        "phone": "0812 9682 680"
+      },
+      "vihara": null
+    },
+    {
+      "id": "vihara-ardhi-dharma",
+      "no": 21,
+      "date": "2026-11-08",
+      "time": "18.00",
+      "venue": "Vihara Ardhi Dharma",
+      "address": "Jl. Imam Bonjol Gg. Vihara IV No 1 Rt 002/Rw 009, Kel. Sukajadi, Kec. Karawaci, Kota Tangerang, Banten 15113",
+      "dhammadesana": "Bhikkhu Cittanando Mahathera",
+      "contact": {
+        "name": "Metta",
+        "phone": "0818-06767855"
+      },
+      "vihara": "vihara-ardhi-dharma"
+    },
+    {
+      "id": "vihara-tri-maha-ratna",
+      "no": 22,
+      "date": "2026-11-09",
+      "time": "19.00",
+      "venue": "Vihara Tri Maha Ratna",
+      "address": "Kp. Belimbing RT01/01 Kec. Kosambi, Kab. Tangerang, Banten 15212",
+      "dhammadesana": "Ditentukan oleh Bhikkhu yang hadir",
+      "contact": {
+        "name": "Fung Seng",
+        "phone": "0896-6672-0790"
+      },
+      "vihara": "vihara-tri-maha-ratna"
+    },
+    {
+      "id": "cetiya-anurudha",
+      "no": 23,
+      "date": "2026-11-10",
+      "time": "19.00",
+      "venue": "Cetiya Anurudha",
+      "address": "Jl. Mutiara 1 No. 1 Rt.05/05 Kampung Dongkal Pondok Jagung Timur, Serpong Utara, Kota Tangerang Selatan, Banten 15326",
+      "dhammadesana": "Bhikkhu Atthadhiro Thera",
+      "contact": {
+        "name": "Jimmy",
+        "phone": "0813-1527-1897"
+      },
+      "vihara": "cetiya-anurudha"
+    },
+    {
+      "id": "cetiya-caga-dhamma",
+      "no": 24,
+      "date": "2026-11-11",
+      "time": "19.00",
+      "venue": "Cetiya Caga Dhamma",
+      "address": "Kp. Bungoak, RT. 004/001, Desa Caringin Kec. Legok Kab. Tangerang, Banten 15820",
+      "dhammadesana": "Ditentukan oleh Bhikkhu yang hadir",
+      "contact": {
+        "name": "Mista Wijaya",
+        "phone": "0878-0947-4214"
+      },
+      "vihara": "cetiya-caga-dhamma"
+    },
+    {
+      "id": "vihara-dhamma-bhakti",
+      "no": 25,
+      "date": "2026-11-12",
+      "time": "19.00",
+      "venue": "Vihara Dharma Bhakti",
+      "address": "Kp. Jawaringan, Desa Mekar Sari, Kecamatan Panongan, Kab. Tangerang",
+      "dhammadesana": "Bhikkhu Cittanando Mahathera",
+      "contact": {
+        "name": "Reni",
+        "phone": "0812-8378-5954"
+      },
+      "vihara": "vihara-dhamma-bhakti"
+    },
+    {
+      "id": "vihara-ariya-dipasena",
+      "no": 26,
+      "date": "2026-11-13",
+      "time": "19.00",
+      "venue": "Vihara Ariya Dipasena",
+      "address": "Kp. Gunung Batu RT 12/03 Desa Ranca Iyuh Kec. Panongan Kab. Tangerang Banten",
+      "dhammadesana": "Bhikkhu Dhammiko Mahathera",
+      "contact": {
+        "name": "Bhikkhu Senajayo",
+        "phone": "0812-9659-0900"
+      },
+      "vihara": "vihara-ariya-dipasena"
+    },
+    {
+      "id": "cetiya-sasana-dhamma",
+      "no": 27,
+      "date": "2026-11-14",
+      "time": "13.00",
+      "venue": "Cetiya Sasana Dhamma",
+      "address": "Jl. Posyandu 3 No.78 RT.003/RW.04 Kel. Periuk Jaya, Kec. Periuk, Kota Tangerang",
+      "dhammadesana": "Ditentukan oleh Bhikkhu yang hadir",
+      "contact": {
+        "name": "Dedi Susanto",
+        "phone": "0882 9135 3671"
+      },
+      "vihara": null
+    },
+    {
+      "id": "pusdiklat-buddhis-sikkhadama-santibhumi",
+      "no": 28,
+      "date": "2026-11-14",
+      "time": "18.00",
+      "venue": "Pusdiklat Sikkhadama Santibumi",
+      "address": "BSD City Sektor VII Blok C No.6 Bumi Serpong Damai - Tangerang Selatan",
+      "dhammadesana": "Bhikkhu Atthadhiro Thera",
+      "contact": {
+        "name": "YM. Atthadhiro Thera",
+        "phone": "0812-3613-7327"
+      },
+      "vihara": "pusdiklat-buddhis-sikkhadama-santibhumi"
+    },
+    {
+      "id": "cetiya-dhamma-sikkha",
+      "no": 29,
+      "date": "2026-11-15",
+      "time": "09.00",
+      "venue": "Cetiya Dhamma Sikkha",
+      "address": "Perumahan Taman Pabuaran Blok A8 No. 25, Cimone, Kota Tangerang",
+      "dhammadesana": "Bhikkhu Hemadhammo Mahathera",
+      "contact": {
+        "name": "Marlin",
+        "phone": "0819-9013-0576"
+      },
+      "vihara": null
+    },
+    {
+      "id": "vihara-araya-dhamma",
+      "no": 30,
+      "date": "2026-11-15",
+      "time": "18.00",
+      "venue": "Vihara Araya Dhamma",
+      "address": "Jl. Raya Kedaung Wetan Rt 004/Rw 001, Kec. Neglasari, Kota Tangerang, Banten 15128",
+      "dhammadesana": "Bhikkhu Dhammiko Mahathera",
+      "contact": {
+        "name": "Bhikkhu Senajayo",
+        "phone": "0812-9659-0900"
+      },
+      "vihara": "vihara-araya-dhamma"
+    },
+    {
+      "id": "vihara-ti-ratana",
+      "no": 31,
+      "date": "2026-11-16",
+      "time": "19.00",
+      "venue": "Vihara Tiratana",
+      "address": "Jl. AMD 44 Kampung Pisang Sukatani Rt 01 Rw 10 Gang Vihara Kec. Neglasari, Kota Tangerang",
+      "dhammadesana": "Bhikkhu Atthadhiro Thera",
+      "contact": {
+        "name": "Wan Kie",
+        "phone": "0895-8090-48050"
+      },
+      "vihara": "vihara-ti-ratana"
+    },
+    {
+      "id": "cetiya-dharma-dvipa",
+      "no": 32,
+      "date": "2026-11-17",
+      "time": "19.00",
+      "venue": "Cetiya Dharma Dvipa",
+      "address": "Kp. Cirarab RT/RW 002/003 Desa Cirarab Kecamatan Legok, Kab. Tangerang, Banten 15730",
+      "dhammadesana": "Bhikkhu Atthadhiro Thera",
+      "contact": {
+        "name": "Muti",
+        "phone": "0858-8578-8288"
+      },
+      "vihara": "cetiya-dharma-dvipa"
+    },
+    {
+      "id": "vihara-tjo-soe-kong",
+      "no": 33,
+      "date": "2026-11-18",
+      "time": "19.00",
+      "venue": "Tjoe Sukong Tanjung Kait",
+      "address": "Jl. Tanjung Anom, Mauk, Kabupaten Tangerang",
+      "dhammadesana": "Ditentukan oleh Bhikkhu yang hadir",
+      "contact": {
+        "name": "Rusli",
+        "phone": "0813-1073-7297"
+      },
+      "vihara": "vihara-tjo-soe-kong"
+    },
+    {
+      "id": "vihara-buddha-ratana",
+      "no": 34,
+      "date": "2026-11-19",
+      "time": "19.00",
+      "venue": "Vihara Buddha Ratana",
+      "address": "Jl. Stasiun No.36 RT.03/RW.03 Pasar Labuan, Kec. Labuan, Kab. Pandeglang, Banten",
+      "dhammadesana": null,
+      "contact": {
+        "name": "Rama Sumedho",
+        "phone": "0877 8819 1630"
+      },
+      "vihara": "vihara-buddha-ratana"
+    },
+    {
+      "id": "cetiya-gsmbc",
+      "no": 35,
+      "date": "2026-11-20",
+      "time": "19.00",
+      "venue": "Cetiya GSMBC",
+      "address": "Taman Global Mansion Rw 014 Periuk - Tangerang",
+      "dhammadesana": "Bhikkhu Hemadhammo Mahathera",
+      "contact": {
+        "name": "YM. Subhakaro, MT",
+        "phone": "0817-6540-541"
+      },
+      "vihara": null
+    },
+    {
+      "id": "paramita-sukha-center",
+      "no": 36,
+      "date": "2026-11-21",
+      "time": "09.00",
+      "venue": "Paramita Sukha Center",
+      "address": "Jl. MH. Thamrin No.1 & 2, RT.001/RW.004, Cikokol, Tangerang, Banten",
+      "dhammadesana": "Bhikkhu Dhammakaro Mahathera",
+      "contact": {
+        "name": "Ratna",
+        "phone": "0859-2987-5518"
+      },
+      "vihara": null
+    },
+    {
+      "id": "cetiya-tri-dharma-cariya",
+      "no": 37,
+      "date": "2026-11-21",
+      "time": "14.00",
+      "venue": "Vihara Tri Dharma Cariya",
+      "address": "Jl. Keramat Ema Dato Kp. Kebon Baru RT 001 RW 004 Ds. Margamulya, Kec. Mauk, Kab. Tangerang, Banten 15530",
+      "dhammadesana": "Ditentukan oleh Bhikkhu yang hadir",
+      "contact": {
+        "name": "Rusli",
+        "phone": "0813-1073-7297"
+      },
+      "vihara": "cetiya-tri-dharma-cariya"
+    },
+    {
+      "id": "vihara-indraloka",
+      "no": 38,
+      "date": "2026-11-21",
+      "time": "18.00",
+      "venue": "Vihara Indraloka",
+      "address": "Jl. Benteng Jaya No.29 Rt.04 Rw.08 Kel. Sukarasa, Tangerang 15111",
+      "dhammadesana": "Bhikkhu Hemadhammo Mahathera",
+      "contact": {
+        "name": "Rama Amrin",
+        "phone": "0819-0614-9127"
+      },
+      "vihara": "vihara-indraloka"
+    },
+    {
+      "id": "vihara-mandalawangi-arama",
+      "no": 39,
+      "date": "2026-11-22",
+      "time": "09.00",
+      "venue": "Vihara Mandalawangi",
+      "address": "Blok Cendana, Jl. Kelapa Dua No.60, Drangong, Kec. Taktakan, Kota Serang, Banten 42162",
+      "dhammadesana": null,
+      "contact": {
+        "name": "Budi Suwito",
+        "phone": "0811-122-821"
+      },
+      "vihara": "vihara-mandalawangi-arama"
+    },
+    {
+      "id": "vihara-karuna-buddha",
+      "no": 40,
+      "date": "2026-11-22",
+      "time": "16.00",
+      "venue": "Vihara Karuna Buddha",
+      "address": "Jl. Sinar Hati 5 No. 60 Imam Bonjol, Karawaci, Kota Tangerang",
+      "dhammadesana": null,
+      "contact": {
+        "name": "Yulan",
+        "phone": "0896-1881-6267"
+      },
+      "vihara": "vihara-karuna-buddha"
+    },
+    {
+      "id": "cetiya-vijja-gana",
+      "no": 41,
+      "date": "2026-11-23",
+      "time": "19.00",
+      "venue": "Cetiya Vijja Gana",
+      "address": "Villa Tomang Baru Blok L1 No.5-6 RT.005 RW.014 Kel. Kutajaya Kec. Pasar Kemis, Kab. Tangerang, Banten 15560",
+      "dhammadesana": "Bhikkhu Jagaro Mahathera",
+      "contact": {
+        "name": "Anung P.",
+        "phone": "0821-1235-6996"
+      },
+      "vihara": "cetiya-vijja-gana"
+    },
+    {
+      "id": "vihara-dhamma-metta",
+      "no": 42,
+      "date": "2026-11-28",
+      "time": "18.00",
+      "venue": "Vihara Dhamma Metta",
+      "address": "Cijantra - Legok",
+      "dhammadesana": "Ditentukan oleh Bhikkhu yang hadir",
+      "contact": {
+        "name": "Iwan Sugandi",
+        "phone": "0895 3317 48072"
+      },
+      "vihara": "vihara-dhamma-metta"
+    },
+    {
+      "id": "cetiya-vijjapala",
+      "no": 43,
+      "date": "2026-11-29",
+      "time": "09.00",
+      "venue": "Cetiya Vijjapala",
+      "address": "Jl. Adi Sucipto No. 28 Rt. 005/008 - Batu Ceper Belendung",
+      "dhammadesana": "Ditentukan oleh Bhikkhu yang hadir",
+      "contact": {
+        "name": "Candra",
+        "phone": "0878 8631 0576"
+      },
+      "vihara": null
+    },
+    {
+      "id": "vihara-buddhi-vardhana",
+      "no": 44,
+      "date": "2026-11-29",
+      "time": "16.00",
+      "venue": "Vihara Buddhi Vardhana",
+      "address": "Jl. Imam Bonjol No. 41 Karawaci, Kota Tangerang",
+      "dhammadesana": null,
+      "contact": {
+        "name": "Sri",
+        "phone": "0895 3228 66765"
+      },
+      "vihara": "vihara-buddhi-vardhana"
+    }
+  ]
+}
