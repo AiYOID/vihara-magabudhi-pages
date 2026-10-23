@@ -64,9 +64,16 @@ a { color: inherit; }
   padding: 40px 0 24px;
   text-align: center;
 }
-.lotus {
-  width: 44px; height: 44px;
-  fill: var(--accent);
+.logo {
+  display: block;
+  width: 112px;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 18px;
+  /* The logo is drawn on white, so it keeps a white tile in dark mode too. */
+  background: #fff;
+  box-shadow: var(--shadow);
 }
 .eyebrow {
   margin: 8px 0 4px;
