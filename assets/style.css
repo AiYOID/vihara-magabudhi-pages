@@ -1,30 +1,35 @@
 :root {
-  --bg: #faf6ef;
+  /* Navy and red from the Magabudhi logo. */
+  --bg: #f5f5fa;
   --surface: #ffffff;
-  --ink: #2a1f14;
-  --muted: #6f6253;
-  --line: #eadfcd;
-  --accent: #b4541a;
-  --accent-hover: #9a4612;
+  --ink: #1b1a3a;
+  --muted: #5f5e7a;
+  --line: #e3e2ee;
+  --accent: #2e2b6d;
+  --accent-hover: #221f57;
   --accent-ink: #ffffff;
-  --accent-soft: #f6e6d6;
+  --accent-soft: #e8e7f5;
+  --red: #ae3343;
+  --red-soft: #f9e8ea;
   --wa: #1d7f46;
-  --shadow: 0 1px 2px rgba(60, 36, 12, .06), 0 4px 14px rgba(60, 36, 12, .06);
+  --shadow: 0 1px 2px rgba(27, 26, 70, .06), 0 4px 14px rgba(27, 26, 70, .06);
   --radius: 16px;
   color-scheme: light;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #17120d;
-    --surface: #211a13;
-    --ink: #f3ebe0;
-    --muted: #b3a593;
-    --line: #3a2f24;
-    --accent: #e58a45;
-    --accent-hover: #f09a58;
-    --accent-ink: #1a120a;
-    --accent-soft: #3a2616;
+    --bg: #12121f;
+    --surface: #1b1b2d;
+    --ink: #ececf5;
+    --muted: #a5a4bf;
+    --line: #2e2d47;
+    --accent: #9d9af0;
+    --accent-hover: #b4b1ff;
+    --accent-ink: #15142e;
+    --accent-soft: #26254a;
+    --red: #f0848f;
+    --red-soft: #3a1e27;
     --wa: #4cc684;
     --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 4px 14px rgba(0, 0, 0, .25);
     color-scheme: dark;
@@ -64,16 +69,35 @@ a { color: inherit; }
   padding: 40px 0 24px;
   text-align: center;
 }
-.logo {
-  display: block;
-  width: 112px;
-  height: auto;
-  margin: 0 auto;
-  padding: 10px;
-  border-radius: 18px;
-  /* The logo is drawn on white, so it keeps a white tile in dark mode too. */
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  text-align: left;
+}
+.brand img {
+  flex: none;
+  width: 56px; height: 56px;
+  border-radius: 14px;
+  /* The emblem is drawn on white, so it keeps a white tile in dark mode too. */
   background: #fff;
-  box-shadow: var(--shadow);
+  box-shadow: 0 0 0 1px var(--line);
+}
+.brand p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.brand b {
+  display: block;
+  color: var(--accent);
+  font-size: 19px;
+  font-weight: 800;
+  letter-spacing: .04em;
 }
 .tabs {
   display: inline-flex;
@@ -103,7 +127,7 @@ a { color: inherit; }
 }
 .eyebrow {
   margin: 0 0 4px;
-  color: var(--accent);
+  color: var(--red);
   font-size: 13px;
   font-weight: 700;
   letter-spacing: .12em;
@@ -292,8 +316,8 @@ a { color: inherit; }
   height: 28px;
   padding: 0 8px;
   border-radius: 8px;
-  background: var(--accent-soft);
-  color: var(--accent);
+  background: var(--red-soft);
+  color: var(--red);
   font-size: 13px;
   font-weight: 800;
   font-variant-numeric: tabular-nums;
@@ -317,8 +341,8 @@ a { color: inherit; }
   align-self: center;
   padding: 2px 10px;
   border-radius: 999px;
-  background: var(--accent);
-  color: var(--accent-ink);
+  background: var(--red);
+  color: var(--surface);
   font-size: 12px;
   font-weight: 700;
 }
@@ -333,16 +357,16 @@ a { color: inherit; }
   min-height: 44px;
   padding: 8px 12px;
   border-radius: 10px;
-  background: var(--accent-soft);
+  background: var(--red-soft);
   font-size: 14px;
   text-decoration: none;
 }
 .event-link svg {
   flex: none;
   width: 18px; height: 18px;
-  fill: none; stroke: var(--accent); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round;
+  fill: none; stroke: var(--red); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round;
 }
-.event-link b { color: var(--accent); font-weight: 700; }
+.event-link b { color: var(--red); font-weight: 700; }
 
 .contacts {
   display: flex;

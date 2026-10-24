@@ -35,3 +35,5 @@ python3 -m http.server 8000
 ## Publish
 
 Push to GitHub, then go to **Settings → Pages → Build and deployment**, choose **Deploy from a branch**, branch `main`, folder `/ (root)`.
+
+GitHub Pages lets browsers cache CSS and JS for about 10 minutes, so after changing anything in `assets/` bump the `?v=` number on the stylesheet and script tags in both `index.html` and `jadwal.html`; otherwise a fresh page can load an old stylesheet.
